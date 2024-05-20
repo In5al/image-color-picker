@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ColorExtractor } from 'react-color-extractor';
+import { ChromePicker } from 'react-color';
 
 function ImageColorExtractor({ uploadedImage, onColorPick }) {
   const [colors, setColors] = useState([]);
