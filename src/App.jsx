@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ColorPickerComponent from './ColorPicker.jsx';
 import ImageColorExtractor from './ImageColorExtractor.jsx';
-import  appStyles from './App.css';
+import  Appstyles from './App.css'
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [uploadedImages, setUploadedImages] = useState([]);
