@@ -1,38 +1,69 @@
+body {
+  transition: background-color 0.3s ease; /* Smooth transition */
+  background-color: #fff; /* Light mode default */
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Specific element styles for both light and dark modes */
+
 .App {
-  text-align: center;
+  background-color: #fff; /* Light mode background */
+  color: #000; /* Light mode text */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App.dark-mode { /* Styles applied when in dark mode */
+  background-color: #222; /* Dark mode background */
+  color: #fff; /* Dark mode text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-container,
+.colors {
+  background-color: #f5f5f5; /* Light mode background */
+  border: 1px solid #ddd;  /* Light mode border */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-container.dark-mode,
+.colors.dark-mode { /* Styles applied when in dark mode */
+  background-color: #333; /* Dark mode background */
+  border: 1px solid #444;  /* Dark mode border */
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background-color: #ddd; /* Light mode background */
+  color: #000; /* Light mode text */
+  border: 1px solid #ccc;  /* Light mode border */
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.dark-mode { /* Styles applied when in dark mode */
+  background-color: #444; /* Dark mode background */
+  color: #fff; /* Dark mode text */
+  border: 1px solid #555; /* Dark mode border */
+}
+
+h1, h2, h3 {
+  color: #000; /* Consistent text color for headings */
+}
+
+.color-box {
+  border: 1px solid #ddd; /* Light mode border */
+}
+
+.color-box.dark-mode { /* Styles applied when in dark mode */
+  border: 1px solid #444; /* Dark mode border */
+}
+
+/* Additional styles for other elements as needed */
+.dark-mode h1 {
+  color: #fff;
+}
+
+.dark-mode .App {
+  /* Specific styles for your app container in dark mode */
 }
