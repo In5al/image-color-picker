@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bdf35de.css",
-    "main.js": "/static/js/main.0135fab0.js",
-    "static/js/453.cb0e18a0.chunk.js": "/static/js/453.cb0e18a0.chunk.js",
-    "index.html": "/index.html",
-    "main.3bdf35de.css.map": "/static/css/main.3bdf35de.css.map",
-    "main.0135fab0.js.map": "/static/js/main.0135fab0.js.map",
-    "453.cb0e18a0.chunk.js.map": "/static/js/453.cb0e18a0.chunk.js.map"
+    "main.css": "/image-color-picker/static/css/main.3bdf35de.css",
+    "main.js": "/image-color-picker/static/js/main.a20b78eb.js",
+    "static/js/453.cb0e18a0.chunk.js": "/image-color-picker/static/js/453.cb0e18a0.chunk.js",
+    "index.html": "/image-color-picker/index.html",
+    "main.3bdf35de.css.map": "/image-color-picker/static/css/main.3bdf35de.css.map",
+    "main.a20b78eb.js.map": "/image-color-picker/static/js/main.a20b78eb.js.map",
+    "453.cb0e18a0.chunk.js.map": "/image-color-picker/static/js/453.cb0e18a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bdf35de.css",
-    "static/js/main.0135fab0.js"
+    "static/js/main.a20b78eb.js"
   ]
 }
